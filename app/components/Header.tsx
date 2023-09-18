@@ -7,10 +7,12 @@ const links = ["About", "Services", "Work", "Contact"]
 
 export default function Header() {
   return (
-    <div className="header-wrapper flex align-middle justify-between p-4 bg-slate-200 drop-shadow-md">
+    <div className="header-wrapper flex align-middle justify-between p-4 bg-slate-200 drop-shadow-md fixed top-0 left-0 right-0">
       <div className="left-nav">
         <div className="brand-name">
-          <Link href="/"><h1 className='ml-8 font-bold text-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  '>Ibrahim</h1></Link>
+          <Link href="/">
+            <h1 className='ml-8 font-bold text-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  '>Ibrahim</h1>
+            </Link>
         </div>
       </div>
       <div className="right-nav">
